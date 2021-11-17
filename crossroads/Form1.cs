@@ -17,7 +17,7 @@ namespace crossroads
         {
             InitializeComponent();
         }
-
+        //測試git上傳
         private PictureBox vehicle = new PictureBox();//動態生成車子
         private PictureBox vehicle1 = new PictureBox();
 
@@ -138,6 +138,11 @@ namespace crossroads
         private void RandomTimer_Tick(object sender, EventArgs e)
         {
             
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
